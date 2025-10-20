@@ -36,7 +36,7 @@ LICENSE                  # MIT (optionnel)
 
 ## Variables importantes
 
-* `DOMAIN` : nom du domaine AD (ex. `bpx.fr`)
+* `DOMAIN` : nom du domaine AD (ex. `bpx.local`)
 * `AD_ADMIN` : compte utilisé pour joindre le domaine (ex. `Administrateur`)
 * `AD_DNS` : adresse IP du serveur DNS AD (optionnel si déjà configuré)
 * `HOSTNAME` : (optionnel) nom d'hôte de la VM côté Debian
