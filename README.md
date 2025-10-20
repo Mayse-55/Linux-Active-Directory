@@ -59,8 +59,6 @@ sudo apt update
 sudo apt install -y realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-common-bin oddjob oddjob-mkhomedir packagekit krb5-user
 ```
 
-> Lors de l'installation de `krb5-user`, renseigne le realm si demandé (ex. `BPX.FR`) ou laisse vide et configure plus tard.
-
 3. Découvrir le domaine
 
 ```bash
