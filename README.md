@@ -62,13 +62,13 @@ sudo apt install -y realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-com
 3. Découvrir le domaine
 
 ```bash
-realm discover bpx.fr
+realm discover bpx.local
 ```
 
 4. Joindre le domaine
 
 ```bash
-sudo realm join --user=Administrateur bpx.fr
+sudo realm join --user=Administrateur bpx.local
 ```
 
 * Entrer le mot de passe AD quand demandé.
