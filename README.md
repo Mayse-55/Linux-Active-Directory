@@ -2,7 +2,7 @@
 
 ## 📦 Prérequis
 
-**Windows Server (AD)**
+**Windows Server 2025 (AD)**
 * Domaine opérationnel (ex. `bpx.local`) et contrôleur de domaine accessible.
 * Serveur DNS AD disponible pour la VM Debian.
 * Compte avec droits pour joindre des machines au domaine (ex. `Administrateur`).
