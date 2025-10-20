@@ -1,19 +1,21 @@
 # Joindre une VM Debian 13 à Active Directory (Windows Server 2025)
 
+| | |
+|---|---|
+| **Windows Server 2025** | `26100.1742.240906-0331.ge_release_svc_refresh_SERVER_EVAL_x64FRE_fr-fr` |
+| **Distribution** | Debian 13 |
+
+---
+
 ## 📦 Prérequis
 
-* **Windows Server 2025 version :** `26100.1742.240906-0331.ge_release_svc_refresh_SERVER_EVAL_x64FRE_fr-fr`  
-* **Distribution :** Debian 13
-
-### Côté Windows Server (AD)
-
+**Windows Server (AD)**
 * Domaine opérationnel (ex. `bpx.local`) et contrôleur de domaine accessible.
 * Serveur DNS AD disponible pour la VM Debian.
 * Compte avec droits pour joindre des machines au domaine (ex. `Administrateur`).
 * Heure synchronisée (NTP) entre Debian et AD (Kerberos est sensible à l'heure).
 
-### Côté Debian 13
-
+**Debian 13**
 * Système à jour (`apt update && apt upgrade`).
 * Accès root / sudo.
 * Résolution DNS pointant vers le(s) contrôleur(s) de domaine.
@@ -21,7 +23,7 @@
 
 ---
 
-## Variables importantes
+## 📋 Variables importantes
 
 * `DOMAIN` : nom du domaine AD (ex. `bpx.local`)
 * `AD_ADMIN` : compte utilisé pour joindre le domaine (ex. `Administrateur`)
@@ -30,29 +32,29 @@
 
 ---
 
-## Instructions manuelles (résumé)
+## 🚀 Instructions
 
-1. Vérifier DNS
+### 1. Vérifier DNS
 
 ```bash
 cat /etc/resolv.conf
-# doit pointer vers le DNS AD ou contenir search bpx.fr
+# doit pointer vers le DNS AD ou contenir search bpx.local
 ```
 
-2. Installer paquets
+### 2. Installer les paquets
 
 ```bash
 sudo apt update
 sudo apt install -y realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-common-bin oddjob oddjob-mkhomedir packagekit krb5-user
 ```
 
-3. Découvrir le domaine
+### 3. Découvrir le domaine
 
 ```bash
 realm discover bpx.local
 ```
 
-4. Joindre le domaine
+### 4. Joindre le domaine
 
 ```bash
 sudo realm join --user=Administrateur bpx.local
