@@ -75,5 +75,3 @@ sudo realm join --user=Administrateur bpx.fr
 
 * Entrer le mot de passe AD quand demandé.
 * Si succès : la machine sera créée dans l'OU `Computers` par défaut.
-* fournir un workflow GitHub Actions d'exemple pour tester le script,
-* générer le fichier `join-domain.sh` prêt à l'emploi.
