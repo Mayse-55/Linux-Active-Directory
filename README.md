@@ -1,11 +1,5 @@
 # Joindre une VM Debian 13 à Active Directory (Windows Server 2025)
 
-## Résumé
-
-Ce dépôt contient une documentation et un script pour joindre une machine **Debian 13** à un domaine **Active Directory** (ex. `bpx.fr`) géré par **Windows Server 2025**. La méthode utilise `realmd` + `sssd` pour une intégration propre et sécurisée.
-
----
-
 ## Structure du dépôt
 
 ```
