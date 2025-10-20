@@ -20,7 +20,7 @@ LICENSE                  # MIT (optionnel)
 
 ### Côté Windows Server (AD)
 
-* Domaine opérationnel (ex. `bpx.fr`) et contrôleur de domaine accessible.
+* Domaine opérationnel (ex. `bpx.local`) et contrôleur de domaine accessible.
 * Serveur DNS AD disponible pour la VM Debian.
 * Compte avec droits pour joindre des machines au domaine (ex. `Administrateur`).
 * Heure synchronisée (NTP) entre Debian et AD (Kerberos est sensible à l'heure).
