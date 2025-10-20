@@ -1,5 +1,8 @@
 # Joindre une VM Debian 13 à Active Directory (Windows Server 2025)
 
+> [!caution]
+> Attention Il faut installer la derniére version de Windows Server 2025
+> Windows Server : 26100.1742.240906-0331.ge_release_svc_refresh_SERVER_EVAL_x64FRE_fr-fr
 ### Côté Windows Server (AD)
 
 * Domaine opérationnel (ex. `bpx.local`) et contrôleur de domaine accessible.
