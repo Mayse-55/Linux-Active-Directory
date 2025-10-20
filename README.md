@@ -1,6 +1,6 @@
 # Joindre une VM Debian 13 à Active Directory (Windows Server 2025)
 
-
+| | |
 |---|---|
 | **Windows Server 2025** | `26100.1742.240906-0331.ge_release_svc_refresh_SERVER_EVAL_x64FRE_fr-fr` |
 | **Distribution** | Debian 13 |
