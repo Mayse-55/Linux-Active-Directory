@@ -1,17 +1,5 @@
 # Joindre une VM Debian 13 à Active Directory (Windows Server 2025)
 
-## Structure du dépôt
-
-```
-README.md                # Cette documentation
-join-domain.sh           # Script d'automatisation (bash)
-LICENSE                  # MIT (optionnel)
-```
-
----
-
-## Prérequis
-
 ### Côté Windows Server (AD)
 
 * Domaine opérationnel (ex. `bpx.local`) et contrôleur de domaine accessible.
