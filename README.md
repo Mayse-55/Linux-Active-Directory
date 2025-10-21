@@ -27,9 +27,10 @@
 
 ## 🚀 Instructions
 
-> [!caution]
-> 🕐 Synchronisation NTP **obligatoire** 
-> Assurez-vous que le serveur et le client sont **synchronisés sur la même heure** avant de poursuivre **l'intégration à Active Directory**.
+> [!CAUTION]
+> **🕐 Attention : Synchronisation Horaire**
+> 
+> Assurez-vous que le **serveur Debian** et le **client** partagent la **même heure système**. Une différence de temps peut entraîner des **échecs d'authentification** Kerberos.
 
 ### 1. Vérifier DNS
 
