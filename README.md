@@ -21,24 +21,21 @@
 > [!CAUTION]
 > Assurez-vous que le **serveur Debian** et le **client** partagent la **même heure système**. Car cela peut provoquer **des échecs d'authentification**.
 
-### 🌐 **Étape 1 : Configuration DNS**
+### **Étape 1 : Configuration DNS**
 
 #### **Modification du fichier resolv.conf**
 ```bash
 nano /etc/resolv.conf
 ```
 
-> [!TIP]
-> **Pourquoi ?** Le serveur DNS doit pointer vers votre **contrôleur Active Directory** pour la résolution des noms de domaine.
+**Pourquoi ?** Le serveur DNS doit pointer vers votre **contrôleur Active Directory** pour la résolution des noms de domaine.
 
 #### **Configuration requise**
 ```bash
 nameserver 30.31.3.182
-# 📝 Remplacez par l'adresse IP de votre serveur AD
+# Remplacez par l'adresse IP de votre serveur AD
 ```
-
-> [!NOTE]
-> Assurez-vous que le **serveur AD est accessible** avant de continuer.
+Assurez-vous que le **serveur AD est accessible** avant de continuer.
 
 ---
 
