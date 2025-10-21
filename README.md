@@ -38,8 +38,7 @@ sudo apt install -y realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-com
 nano /etc/resolv.conf
 ```
 
-> [!IMPORTANT]
-> Le serveur DNS **doit pointer vers votre contrôleur Active Directory** pour la résolution des noms de domaine.
+Le serveur DNS **doit pointer vers votre contrôleur Active Directory** pour la résolution des noms de domaine.
 
 ```bash
 nameserver 30.31.3.182
