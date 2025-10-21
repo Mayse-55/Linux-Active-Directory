@@ -43,7 +43,7 @@ nano /etc/resolv.conf
 
 ```bash
 nameserver 30.31.3.182
-# ⚠️ Remplacez par l'adresse IP de votre contrôleur AD
+# Remplacez par l'adresse IP de votre contrôleur AD
 ```
 
 **Vérifier la connectivité :**
