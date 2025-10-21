@@ -41,7 +41,18 @@ Le serveur DNS doit pointer vers votre **contrôleur Active Directory** pour la 
 nameserver 30.31.3.182
 # Remplacez par l'adresse IP de votre serveur AD
 ```
+
 Assurez-vous que le **serveur AD est accessible** avant de continuer.
+
+```bash
+ping 30.31.3.182
+# Remplacez par l'adresse IP de votre serveur AD
+
+ou
+
+ping bpx.local
+# Remplacez par le domaine de votre serveur AD
+```
 
 ### 3. Découvrir le domaine
 
