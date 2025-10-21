@@ -1,7 +1,3 @@
-Voici une version légèrement améliorée :
-
----
-
 # Joindre une VM Debian 13 à Active Directory
 
 ## 📦 Prérequis
