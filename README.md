@@ -21,17 +21,26 @@
 > [!CAUTION]
 > Assurez-vous que le **serveur Debian** et le **client** partagent la **même heure système**. Car cela peut provoquer **des échecs d'authentification**.
 
-### 1. Vérification DNS
+### 🌐 **Étape 1 : Configuration DNS**
 
+#### **Modification du fichier resolv.conf**
 ```bash
 nano /etc/resolv.conf
-# doit pointer vers le DNS AD
 ```
-Changer le DNS a coté de `nameserver`
+
+> [!TIP]
+> **Pourquoi ?** Le serveur DNS doit pointer vers votre **contrôleur Active Directory** pour la résolution des noms de domaine.
+
+#### **Configuration requise**
 ```bash
 nameserver 30.31.3.182
-# Changer par l'ip de votre AD 
+# 📝 Remplacez par l'adresse IP de votre serveur AD
 ```
+
+> [!NOTE]
+> Assurez-vous que le **serveur AD est accessible** avant de continuer.
+
+---
 
 ### 2. Installer les paquets
 
