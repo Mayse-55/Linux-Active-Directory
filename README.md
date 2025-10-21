@@ -28,7 +28,8 @@
 ## 🚀 Instructions
 
 > [!caution]
-> Le serveur et le client doivent être synchronisés sur la même heure
+> 🕐 Synchronisation NTP **obligatoire** 
+> Assurez-vous que le serveur et le client sont **synchronisés sur la même heure** avant de poursuivre **l'intégration à Active Directory**.
 
 ### 1. Vérifier DNS
 
