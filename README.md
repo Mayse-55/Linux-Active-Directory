@@ -28,7 +28,7 @@
 ## 🚀 Instructions
 
 > [!CAUTION]
-> Assurez-vous que le **serveur Debian** et le **client** partagent la **même heure système**. Car cela peut provoquer **échecs d'authentification**.
+> Assurez-vous que le **serveur Debian** et le **client** partagent la **même heure système**. Car cela peut provoquer **échecs d'authentification**!
 
 ### 1. Vérifier DNS
 
