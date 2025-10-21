@@ -56,7 +56,7 @@ ping bpx.local
 # Remplacez par le domaine de votre serveur AD
 ```
 
-⚠️ Assurez-vous que le **serveur AD est accessible** avant de continuer.
+⛔ Assurez-vous que le **serveur AD est accessible** avant de continuer.
 
 ### **3. Découvrir le domaine**
 ```bash
