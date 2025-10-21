@@ -41,7 +41,6 @@ nano /etc/resolv.conf
 > [!IMPORTANT]
 > Le serveur DNS **doit pointer vers votre contrôleur Active Directory** pour la résolution des noms de domaine.
 
-**Configurer l'adresse du serveur DNS :**
 ```bash
 nameserver 30.31.3.182
 # ⚠️ Remplacez par l'adresse IP de votre contrôleur AD
