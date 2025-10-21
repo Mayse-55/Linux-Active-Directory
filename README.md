@@ -1,4 +1,4 @@
-# Joindre une VM Debian 13 à Active Directory (Windows Server 2025)
+# Joindre une VM Debian 13 à Active Directory
 
 ## 📦 Prérequis
 
