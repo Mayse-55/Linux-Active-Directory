@@ -51,10 +51,9 @@ ping 30.31.3.182
 ping bpx.local
 # Remplacez par le domaine de votre serveur AD
 ```
+
 > [!IMPORTANT]
-> **❌ Si le ping échoue, ne continuez pas !**
-> 
-> Vérifiez d'abord la **connectivité réseau** entre votre serveur Debian et le contrôleur AD avant de poursuivre. Un problème de connectivité empêchera toute intégration au domaine.
+> En cas d'échec du ping, vérifiez la connectivité réseau avant de poursuivre. Sans communication avec le contrôleur AD, l'intégration au domaine échouera.
 
 ### **3. Découvrir le domaine**
 ```bash
