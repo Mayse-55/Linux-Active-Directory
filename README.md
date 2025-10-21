@@ -27,11 +27,14 @@
 
 ## 🚀 Instructions
 
+> [!caution]
+> Le serveur et le client doivent être synchronisés sur la même heure
+
 ### 1. Vérifier DNS
 
 ```bash
 cat /etc/resolv.conf
-# doit pointer vers le DNS AD ou contenir search bpx.local
+# doit pointer vers le DNS AD
 ```
 
 ### 2. Installer les paquets
