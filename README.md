@@ -21,7 +21,13 @@
 > [!CAUTION]
 > Assurez-vous que le **serveur Debian** et le **client** partagent la **même heure système**. Car cela peut provoquer **des échecs d'authentification**.
 
-### **Étape 1 : Configuration DNS**
+### 1. Installer les paquets
+
+```bash
+sudo apt update
+sudo apt install -y realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-common-bin oddjob oddjob-mkhomedir packagekit krb5-user
+```
+### **2. Configuration DNS**
 
 #### **Modification du fichier resolv.conf**
 ```bash
@@ -36,15 +42,6 @@ nameserver 30.31.3.182
 # Remplacez par l'adresse IP de votre serveur AD
 ```
 Assurez-vous que le **serveur AD est accessible** avant de continuer.
-
----
-
-### 2. Installer les paquets
-
-```bash
-sudo apt update
-sudo apt install -y realmd sssd sssd-tools libnss-sss libpam-sss adcli samba-common-bin oddjob oddjob-mkhomedir packagekit krb5-user
-```
 
 ### 3. Découvrir le domaine
 
