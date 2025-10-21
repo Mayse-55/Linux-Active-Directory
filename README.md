@@ -28,7 +28,7 @@
 nano /etc/resolv.conf
 ```
 
-**Pourquoi ?** Le serveur DNS doit pointer vers votre **contrôleur Active Directory** pour la résolution des noms de domaine.
+Le serveur DNS doit pointer vers votre **contrôleur Active Directory** pour la résolution des noms de domaine.
 
 #### **Configuration requise**
 ```bash
