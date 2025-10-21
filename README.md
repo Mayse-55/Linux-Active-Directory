@@ -23,7 +23,7 @@ Voici une version légèrement améliorée :
 ## 🚀 Instructions
 
 > [!CAUTION]
-> Assurez-vous que le **serveur Debian** et le **contrôleur AD** partagent la **même heure système**. Une différence temporelle peut provoquer **des échecs d'authentification Kerberos**.
+> Assurez-vous que le **serveur Debian** et le **contrôleur AD** partagent la **même heure système**. Une différence peut provoquer **des échecs d'authentification Kerberos**.
 
 ### **1. Installer les paquets nécessaires**
 ```bash
