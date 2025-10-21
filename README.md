@@ -21,11 +21,16 @@
 > [!CAUTION]
 > Assurez-vous que le **serveur Debian** et le **client** partagent la **même heure système**. Car cela peut provoquer **des échecs d'authentification**.
 
-### 1. Vérifier DNS
+### 1. Vérification DNS
 
 ```bash
-cat /etc/resolv.conf
+nano /etc/resolv.conf
 # doit pointer vers le DNS AD
+```
+Changer le DNS a coté de `nameserver`
+```bash
+nameserver 30.31.3.182
+# Changer par l'ip de votre AD 
 ```
 
 ### 2. Installer les paquets
